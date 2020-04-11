@@ -1,8 +1,8 @@
 package rnataraj.springframework.di.services;
 
-public class HelloWorldServiceSpanishImpl implements HelloWorldService{
+public class HelloWorldServiceGermanImpl implements HelloWorldService {
     @Override
     public String getGreeting() {
-        return "Hola Mundo!!";
+        return "Hallo Welt";
     }
 }
